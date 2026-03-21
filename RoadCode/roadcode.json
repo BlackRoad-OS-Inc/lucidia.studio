@@ -1,0 +1,25 @@
+{
+  "name": "lucidia.studio",
+  "org": "BlackRoad-OS-Inc",
+  "category": "creative",
+  "title": "Lucidia Studio",
+  "deploy": {
+    "target": "gematria",
+    "path": "/var/www/blackroad/lucidia.studio",
+    "ssl": "auto",
+    "cdn": true
+  },
+  "mirrors": {
+    "gitea": "https://git.blackroad.io/BlackRoad-OS-Inc/lucidia.studio",
+    "github": "https://github.com/BlackRoad-OS-Inc/lucidia.studio"
+  },
+  "ci": {
+    "on_push": ["build", "deploy"],
+    "on_pr": ["lint", "audit"]
+  },
+  "monitoring": {
+    "uptime": true,
+    "analytics": "roadanalytics",
+    "alerts": "nats"
+  }
+}
