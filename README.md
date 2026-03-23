@@ -1,5 +1,13 @@
 # lucidia.studio
 
+> BlackRoad OS, Inc. — lucidia.studio domain repo. Proprietary.
+
+Part of the [BlackRoad OS](https://blackroad.io) ecosystem — [BlackRoad-OS-Inc](https://github.com/BlackRoad-OS-Inc)
+
+---
+
+# lucidia.studio
+
 > Lucidia Studio — Video, audio, design. AI-assisted.
 
 ## About
